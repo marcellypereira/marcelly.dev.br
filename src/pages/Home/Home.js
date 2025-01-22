@@ -22,6 +22,7 @@ import ScssIcon from "../../components/Svg/Scss/Scss";
 import CssIcon from "../../components/Svg/Css/Css";
 import HtmlIcon from "../../components/Svg/Html/Html";
 import Jquery from "../../components/Svg/Jquery/Jquery";
+import WordPress from "../../components/Svg/WordPress/WordPress";
 
 function Home () {
   const socialMediaLinks = [
@@ -154,6 +155,10 @@ function Home () {
             <Badge href="https://jquery.com/">
               <Jquery />
               JQuery
+            </Badge>
+            <Badge href="https://wordpress.com/pt-br/">
+              <WordPress />
+              WordPress
             </Badge>
             .
           </div>
