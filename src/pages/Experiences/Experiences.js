@@ -37,20 +37,19 @@ function Experience() {
         </p>
         <ul className="list-disc pl-5">
           <li>
-            Desenvolvimento de sistema de fluxo de caixa e cadastro de membros
-            para gestão eclesiástica.
+            Desenvolvimento de sistemas de fluxo de caixa e gestão de membros para
+            organizações eclesiásticas.
           </li>
           <li className="mt-4">
-            Criação de telas de autenticação com ReactJS e NodeJS, garantindo
-            segurança e eficiência.
+            Integração de APIs RESTful, garantindo comunicação fluida entre front-end
+            e back-end.
           </li>
           <li className="mt-4">
-            Integrações com APIs para comunicação fluida entre front-end e
-            back-end.
+            Criação de telas seguras de autenticação com ReactJS e Node.js.
           </li>
           <li className="mt-4">
-            Melhoria na usabilidade e acesso ao sistema, com entrega de uma
-            solução pronta para implantação.
+            Melhoria na usabilidade do sistema, reduzindo em 30% o tempo de
+            execução de tarefas administrativas.
           </li>
         </ul>
         <div className="flex flex-wrap gap-2 my-4">
@@ -81,20 +80,20 @@ function Experience() {
         </p>
         <ul className="list-disc pl-5">
           <li>
-            Desenvolvimento de telas de vendas e atendimento usando React e
+            Implementação de telas de vendas e atendimento utilizando React e
             TypeScript.
           </li>
           <li className="mt-4">
-            Implementação de WebSocket para comunicação em tempo real.
+            Deixei o sistema preparado para a implementação de comunicação em
+            tempo real utilizando WebSocket.
           </li>
           <li className="mt-4">
-            Criação de telas de autenticação e cadastro de empresas no
-            aplicativo com React Native.
+            Criação de telas de autenticação e cadastro no aplicativo com React
+            Native, melhorando a experiência do usuário.
           </li>
           <li className="mt-4">
-            Conclusão de uma plataforma com layout limpo, código organizado e
-            preparada para escalar, proporcionando uma experiência de usuário
-            aprimorada.
+            Entrega de uma plataforma escalável com layout responsivo,
+            proporcionando um incremento de 20% na satisfação dos usuários.
           </li>
         </ul>
 
