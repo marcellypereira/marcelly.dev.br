@@ -1,5 +1,5 @@
-import Footer from "../../components/Footer/Footer";
-import NavigationLink from "../../components/NavigationLink/NavigationLink";
+import Footer from '../../components/Footer/Footer';
+import NavigationLink from '../../components/NavigationLink/NavigationLink';
 
 function Experience() {
   return (
@@ -24,40 +24,47 @@ function Experience() {
           caminho, compartilhar conhecimento. Aqui está um resumo do meu
           trabalho até agora.
         </h1>
+
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         <h2 className="font-medium text-xl mb-1 tracking-tighter mb-4">
-          B4D Desenvolvimento de Sistemas
+          Clube Delivery
         </h2>
-        <p className="text-neutral-600 dark:text-neutral-400 text-sm mt-4">
-          Desenvolvedora Web
-        </p>
-        <p className="my-4">
-          Desde janeiro de 2022 a março de 2023 trabalhando remotamente.
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm my-4">
+          Desenvolvedora Web e Mobile
         </p>
         <ul className="list-disc pl-5">
           <li>
-            Desenvolvimento de sistemas de fluxo de caixa e gestão de membros para
-            organizações eclesiásticas.
+            Desenvolvi a interface utilizando React com TypeScript, além de
+            Redux, Tailwind CSS e diversas bibliotecas, como React Icons para
+            ícones, Formik para formulários, e outras.
           </li>
           <li className="mt-4">
-            Integração de APIs RESTful, garantindo comunicação fluida entre front-end
-            e back-end.
+            Estruturei o sistema para suporte a comunicação em tempo real via
+            WebSocket, aumentando a eficiência no atendimento.
           </li>
           <li className="mt-4">
-            Criação de telas seguras de autenticação com ReactJS e Node.js.
+            Criei telas de autenticação para o aplicativo utilizando React
+            Native.
           </li>
           <li className="mt-4">
-            Melhoria na usabilidade do sistema, reduzindo em 30% o tempo de
-            execução de tarefas administrativas.
+            Contribuí para a escalabilidade da plataforma, resultando em um
+            aumento de 20% na satisfação dos usuários.
           </li>
         </ul>
+
         <div className="flex flex-wrap gap-2 my-4">
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
-            ReactJS
+            React
           </span>
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
-            NodeJS
+            TypeScript
+          </span>
+          <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
+            React Native
+          </span>
+          <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
+            Redux
           </span>
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
             Tailwind CSS
@@ -73,39 +80,46 @@ function Experience() {
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
 
         <h2 className="font-medium text-xl mb-1 tracking-tighter mb-4">
-          Clube Delivery
+          B4D Desenvolvimento de Sistemas
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm my-4">
-          Desenvolvedora Web e Mobile
+          Desenvolvedora Web
         </p>
         <ul className="list-disc pl-5">
           <li>
-            Implementação de telas de vendas e atendimento utilizando React e
-            TypeScript.
+            Desenvolvi e otimizei sistemas de fluxo de caixa e gestão de membros
+            com ReactJs.
           </li>
           <li className="mt-4">
-            Deixei o sistema preparado para a implementação de comunicação em
-            tempo real utilizando WebSocket.
+            Integrei APIs RESTful, melhorando a comunicação entre front-end e
+            back-end.
           </li>
           <li className="mt-4">
-            Criação de telas de autenticação e cadastro no aplicativo com React
-            Native, melhorando a experiência do usuário.
+            Gerenciei o estado global da aplicação utilizando Zustand.
           </li>
           <li className="mt-4">
-            Entrega de uma plataforma escalável com layout responsivo,
-            proporcionando um incremento de 20% na satisfação dos usuários.
+            Validei dados com Zod, assegurando maior segurança nas verificações.
+          </li>
+          <li className="mt-4">
+            Implementei layouts com Tailwind CSS e Material-UI, fazendo com que
+            funcione em diferentes dispositivos.
           </li>
         </ul>
-
         <div className="flex flex-wrap gap-2 my-4">
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
-            React
+            ReactJS
           </span>
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
-            TypeScript
+            Zustand
           </span>
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
-            Styled-components
+            Zod
+          </span>
+          <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
+            Tailwind CSS
+          </span>
+          <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
+            Material-UI
           </span>
           <span className="text-xs bg-neutral-100 dark:bg-neutral-700 px-2 py-1 rounded">
             RESTful APIs
